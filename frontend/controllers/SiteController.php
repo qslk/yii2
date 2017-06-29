@@ -1,5 +1,6 @@
 <?php
 namespace frontend\controllers;
+
 use Yii;
 use yii\authclient\ClientInterface;
 use yii\base\InvalidParamException;
