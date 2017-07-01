@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c362766041bb6e1ae12591c44325546",
+    "content-hash": "bab7ce5d5ebca34b750b3783ed84e407",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -203,6 +203,50 @@
             "time": "2017-06-03T02:28:16+00:00"
         },
         {
+            "name": "lulubin/yii2-oauth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lulubin/yii2-oauth.git",
+                "reference": "86749e2eb0ef2fb65ae427ad437c6b4c8a919a3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lulubin/yii2-oauth/zipball/86749e2eb0ef2fb65ae427ad437c6b4c8a919a3d",
+                "reference": "86749e2eb0ef2fb65ae427ad437c6b4c8a919a3d",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0",
+                "yiisoft/yii2-authclient": "~2.1.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "lulubin\\oauth\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "lulubin",
+                    "email": "452936616@qq.com",
+                    "homepage": "https://luluqi.cn/"
+                }
+            ],
+            "description": "An yii2 extension for oauth",
+            "homepage": "https://github.com/lulubin/yii2-oauth",
+            "keywords": [
+                "extension",
+                "oauth",
+                "yii2"
+            ],
+            "time": "2017-01-18T01:46:05+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "5.x-dev",
             "source": {
@@ -358,16 +402,16 @@
         },
         {
             "name": "yiisoft/yii2-authclient",
-            "version": "dev-master",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-authclient.git",
-                "reference": "10a1c4772bd8443307cd4dcfd1bec07c3cfe41fa"
+                "reference": "eec33d8584558aac1ec8d68ba605a898cee2d6e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-authclient/zipball/10a1c4772bd8443307cd4dcfd1bec07c3cfe41fa",
-                "reference": "10a1c4772bd8443307cd4dcfd1bec07c3cfe41fa",
+                "url": "https://api.github.com/repos/yiisoft/yii2-authclient/zipball/eec33d8584558aac1ec8d68ba605a898cee2d6e8",
+                "reference": "eec33d8584558aac1ec8d68ba605a898cee2d6e8",
                 "shasum": ""
             },
             "require": {
@@ -406,7 +450,7 @@
                 "oauth",
                 "yii2"
             ],
-            "time": "2017-06-23T09:46:19+00:00"
+            "time": "2017-06-23T09:45:49+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -2886,7 +2930,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "yiisoft/yii2-redis": 20
+        "yiisoft/yii2-redis": 20,
+        "lulubin/yii2-oauth": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
