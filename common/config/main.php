@@ -14,14 +14,14 @@ return [
             'class' => 'yii\authclient\Collection',
             'clients' => [
                 'qq' => [
-                    'class' => 'yii\authclient\clients\Qq',
-                    'clientId' => '101407515',
-                    'clientSecret' => '38a510760ec9c956193d13ed1d472d12',
+                    'class' => 'lulubin\oauth\Qq',
+                    'clientId' => '101412608',
+                    'clientSecret' => '0415fff1e8347f629ad2ccbfa5fd8d75',
                 ],
                 'google' => [
                     'class' => 'yii\authclient\clients\Google',
-                    'clientId' => 'google_client_id',
-                    'clientSecret' => 'google_client_secret',
+                    'clientId' => '634754228745-9rsd5ovnhf1p5djgu181vgl3dmc22d9i.apps.googleusercontent.com',
+                    'clientSecret' => 'WpvKX5TKujMuPpQOVnHD95M_',
                 ],
                 'facebook' => [
                     'class' => 'yii\authclient\clients\Facebook',
